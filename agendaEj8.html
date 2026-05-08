@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./agendaEj8.css">
+    <script src="./appsAgenda.js" defer></script>
+    <title>Agenda</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-center" ><em>Agenda de Contactos</em></h1>
+    </header>
+    <main class="container"><em>
+        <div class="row align-items-center justify-content-center">
+    <div class="col-6">
+        <form action="#">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" id="nombre" class="form-control">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" id="apellido" class="form-control">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="text" id="telefono" class="form-control">
+            <label for="direccion" class="form-label">Dirección</label>
+            <input type="text" id="direccion" class="form-control">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-control">
+            <button type="button" class="btn btn-primary mt-3 m-4" onclick="guardarContacto()">Guardar contacto</button>
+        </form>
+    </div>
+     <div class="col-6 text-center">
+    <img src="./imagenes/Ej8agenda.jfif" class="rounded float-end img-fluid" style="width: 250px;" alt="" />
+  </div>
+    </div>
+    <table id="contactos" class="table table-bordered table-success">
+        <thead>
+            <tr>
+                <th class="table-primary">Nombre</th>
+                <th class="table-primary">Apellido</th>
+                <th class="table-primary">Teléfono</th>
+                <th class="table-primary">Dirección</th>
+                <th class="table-primary">Email</th>
+            </tr>
+        </thead>
+        <tbody id="tabla">
+        </tbody>
+    </table>
+</em></main>
+    <footer></footer>
+</body>
+</html>

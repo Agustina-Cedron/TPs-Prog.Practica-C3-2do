@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./estiloEj8.css">
+    <script src="./appsEj8.js"></script>
+    <title>Ejercicio 8</title>
+</head>
+<body>
+    <header class="text-center" style="padding: 10px;">
+        <h1>Bienvenido</h1>
+</header>
+
+<main class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+  <div class="card p-4 shadow" style="width: 350px; background-image: url('./imagenes/Ej8.inicio.jfif'); background-size: 50%; background-repeat: no-repeat; background-position: center;">
+    <div id="login" class="card-body">
+
+      <h4 class="text-center mb-3" style="color: black; text-shadow: 2px 2px 5px rgba(0,0,0,0.3);">Inicie sesión</h4>
+
+      <label for="usuario" class="form-label" style="color: black; font-weight: bold;">Nombre de usuario</label>
+      <input type="text" id="usuario" class="form-control mb-2" style="background-color: rgba(200,220,255,0.9);" placeholder="Agustina/usuario">
+      
+      <label for="contrasenia" class="form-label" style="color: black; font-weight: bold;">Contraseña</label>
+      <input type="password" id="contrasenia" class="form-control" style="background-color: rgba(200,220,255,0.9);" placeholder="agustina123/usuario123">
+      
+      <button onclick="login()" class="btn btn-primary mt-3 w-100">Aceptar</button>
+    </div>
+  </div>
+</main>
+
+ <footer class="text-center py-3">
+    <p class="text-muted">UTN - Programación 3 -Cedrón Agustina- 2026</p>
+  </footer>
+
+</body>
+</html>

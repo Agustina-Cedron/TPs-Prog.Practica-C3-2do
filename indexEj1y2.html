@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./estiloEj1y2.css" />
+    <script src="./appEj1y2.js" defer></script>
+    <title>Ejercicio 1 y 2</title>
+  </head>
+  <body>
+   <header class="text-center py-4">
+  <h1>Ficha del Vehículo</h1>
+  <h3>Complete los campos.</h3>
+</header>
+
+<main class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-5">
+
+      <div class="mb-3">
+        <label class="form-label">Marca</label>
+        <input type="text" id="marca" class="form-control" placeholder="Ej: Citroën"/>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Modelo</label>
+        <input type="text" id="modelo" class="form-control" placeholder="Ej: C3"/>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Año</label>
+        <input type="number" id="anio" class="form-control" placeholder="Ej: 2023"/>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Color</label>
+        <input type="text" id="color" class="form-control" placeholder="Ej: Blanco"/>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Estado</label>
+        <select id="estado" class="form-select">
+          <option value="Nuevo">Nuevo</option>
+          <option value="Usado">Usado</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Precio</label>
+        <input type="number" id="precio" class="form-control" placeholder="Ej: 24110000"/>
+      </div>
+
+      <button type="button" class="btn btn-primary w-100 mt-2" onclick="mostrarAuto()">Ver Datos</button>
+      <div id="respuesta" class="mt-4"></div>
+
+    </div>
+     <div class="col-md-6 mt-5 d-flex justify-content-center align-items-center">
+  <img src="./imagenes/Ej1y2.auto..jpg" alt="Vehículo" class="img-fluid rounded shadow-lg"style="width: 350px;height: 520px"/>
+</div>
+  </div>
+</main>
+     <footer class="text-center py-3">
+    <p class="text-muted">UTN - Programación 3 -Cedrón Agustina- 2026</p>
+  </footer>
+  </body>
+</html>

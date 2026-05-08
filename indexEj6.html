@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./estiloEj6.css" />
+    <script src="./appsEj6.js" defer></script>
+    <title>Ejercicio 6</title>
+  </head>
+  <body>
+    <header class="text-center py-4">
+      <h1 class="">Libros</h1>
+    </header>
+   <main class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-5">
+          <h3 class="mb-4">Ingrese los datos del libro</h3>
+          <form action="#">
+            <div class="mb-3">
+              <label for="titulo" class="form-label">Titulo:</label>
+              <input type="text" id="titulo" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <label for="autor" class="form-label">Autor:</label>
+              <input type="text" id="autor" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <label for="genero" class="form-label">Genero:</label>
+              <input type="text" id="genero" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <label for="año" class="form-label">Año de Publicacion:</label>
+              <input type="number" id="año" class="form-control" />
+            </div>
+            <button type="button"
+              class="btn btn-primary w-100 mt-3"
+              onclick="mostrarLibro()"
+            >
+              Mostrar Libro
+            </button>
+            <div id="respuesta" class="mt-4"></div>
+          </form>
+        </div>
+        <div class="col-md-6 mt-5 d-flex justify-content-center">
+      <img src="./imagenes/Ej6.libro.jfif" alt="#" class="img-fluid rounded-circle shadow"/>
+    </div>
+      </div>
+    </main>
+    <footer class="text-center py-3">
+      <p class="text-muted">UTN - Programación 3 -Cedrón Agustina- 2026</p>
+    </footer>
+  </body>
+</html>

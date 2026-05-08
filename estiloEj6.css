@@ -1,0 +1,10 @@
+body {
+  background-color: #bc9bec;
+}
+h1{
+  font-family: 'Georgia', serif;
+  color: #5a0080;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  color: rgb(119, 24, 103);
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
