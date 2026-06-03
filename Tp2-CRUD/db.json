@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Comprar pan",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Lavar la ropa",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "Ver el partido de hockey de Santa Bárbara",
+      "completed": true
+    },
+    {
+      "title": "Limpiar el departamento",
+      "completed": true,
+      "id": "CvXkI4gvjn8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
